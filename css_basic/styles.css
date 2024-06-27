@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: rgb(33, 131, 153);
+    color: white;
 }
 main {
     display: flex;
@@ -14,4 +16,39 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+}
+.logo {
+    width: 5%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+header {
+    position: relative;
+    padding: 20px;
+}
+ul li {
+    display: inline;
+    margin-right: 100px;
+    color: white;
+}
+ul li a{
+color: white;
+text-decoration: none;
+}
+p a {
+    text-decoration: none;
 }

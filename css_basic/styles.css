@@ -18,7 +18,7 @@ aside {
     overflow-y: auto;
 }
 .logo {
-    width: 5%;
+    width: 50px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -38,7 +38,7 @@ th, td {
 }
 header {
     position: relative;
-    padding: 20px;
+    padding: 50px;
 }
 ul li {
     display: inline;

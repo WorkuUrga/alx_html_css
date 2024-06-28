@@ -1,0 +1,117 @@
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 20px;
+}
+.nav ul {
+    display: flex;
+    margin-top: 40px;
+    list-style: none;
+    gap: 40px;
+
+}
+.nav ul li{
+display: inline;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover {
+    font-weight: bold;
+}
+.nav img {
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.background {
+    height: 150vh;
+    background-image: url(background_img.png);
+    background-size: cover;
+    color: ;
+}
+main {
+    text-align: center;
+}
+.schooled .body {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.schooled .pan-container {
+    display: flex;
+    gap: 10px;
+}
+.body {
+    align-items: center;
+    margin-bottom: 100px;
+}
+.body h1 {
+    font-size: 120px;
+    margin-bottom: 0px;
+}
+.schooled {
+    text-align: center;
+    color: white;
+    margin-top: -140px;
+    margin-bottom: ;
+}
+.schooled span {   
+
+    font-size: 1.2em;
+    margin: 10px 25px;
+    
+}
+.schooled .btn {
+    background-color: #C271FF;
+    color: #fff;
+    width: 160px;   
+    padding: 10px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: block;
+}
+.schooled .btn:hover {
+    font-weight: bold;
+}
+.tutors {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tutors div {
+    text-align: center;
+    margin: 20px;
+    flex: 1;
+    min-width: 200px;
+}
+.tutors img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.tutors h3 {
+    margin: 10px 0;
+}
+
+.tutors p {
+    margin: 0;
+}
+h2 strong{
+    color: #C271FF;
+}

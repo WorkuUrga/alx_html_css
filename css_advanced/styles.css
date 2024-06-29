@@ -205,9 +205,31 @@ h2 strong{
     height: 15px;
     margin-right: 100px;
 }
+.registration_page {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 70px;
+    width: 1400px;
+}
+.members_page {
+    display: flex;
+    padding: 50px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.members {
+    width: 250px;
+}
+.registration_page button {
+    color: white;
+    background-color: #C271FF;
+    padding: 15px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
 
-
-
+}
 
 
 

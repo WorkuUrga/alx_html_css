@@ -146,3 +146,69 @@ h2 strong{
     margin-bottom: 5px;
     font-style: italic;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.div_container {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.div_container p {
+    width: 300px;
+}
+.lecture_videos {
+    position: relative;
+}
+.play_button {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.container h2 {
+    text-align: center;
+}
+.about_video {
+    color: #93969a;
+}
+.image {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.tutor_profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0;
+}
+.tutor_profile h4 {
+    color: #C271FF;
+}
+.rating_container {
+    display: flex;
+    justify-content: space-between;
+    width: 255px;
+    align-items: center;
+    margin-top: -20px;
+}
+.rating_container p {
+    color: #C271FF;
+}
+.rating_container img {
+    height: 15px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+

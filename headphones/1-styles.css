@@ -1,0 +1,141 @@
+
+html, body {
+    min-height:100%;
+    margin: 0;
+} 
+
+.header {
+    background-image: url("headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center; 
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1% 5% 12% 5%;
+    }
+.navigation img {
+    height: 30px;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover, a:active {
+    color: red;
+}
+.header h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: -1%;
+}
+.header p {
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.header .par_1 {
+    padding-top: 5%;
+    padding-bottom: 6%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header .btn{
+    background-color: #FF6565;
+    border: none;
+    color: white;
+    width: 162px;
+    height: 44px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.header .btn:hover {
+    opacity: 0.9;
+}
+.header .btn:active {
+    opacity: 0.9;
+}
+
+    .checkbtn {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    #check {
+        display: none;
+    }
+
+    .checkbtn span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+    }
+    
+@media (max-width: 760px) {
+    .navigation ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 10px 0;
+        z-index: 1;
+    }
+
+    .navigation ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .header h1 {
+        width: 60%;
+        margin-bottom: -1%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navigation img {
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    #check:checked ~  ul {
+        left: 0;
+    }
+}
+
+

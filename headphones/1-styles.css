@@ -73,26 +73,66 @@ a:hover, a:active {
     opacity: 0.9;
 }
 
-    .checkbtn {
-        display: none;
-        font-size: 24px;
-        cursor: pointer;
-        color: white;
-        position: absolute;
-        top: 10px;
-        left: 10px;
-    }
-    #check {
-        display: none;
+.checkbtn {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#check {
+    display: none;
+}
+
+.checkbtn span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+.first_par {
+    padding-top: 5%;
+    padding-bottom: 6%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.second_section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 7%;
+
+}
+#icon{
+    font-size: 500%;
+    color: #FF6565;
+}
+.span_icon {
+    width: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+    /*.second_section {
+        padding: 5%;
     }
 
-    .checkbtn span {
-        display: block;
-        width: 25px;
-        height: 3px;
-        background-color: white;
-        margin: 5px 0;
-    }
+
+
+   */
+
+
+
+
+
+
     
 @media (max-width: 760px) {
     .navigation ul {
@@ -135,6 +175,12 @@ a:hover, a:active {
     }
     #check:checked ~  ul {
         left: 0;
+    }
+    .second_section .container {
+        flex-direction: column;    
+    }
+    .span_icon {
+        padding-bottom: 10%;
     }
 }
 
